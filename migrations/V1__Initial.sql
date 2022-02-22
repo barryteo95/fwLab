@@ -9,3 +9,9 @@ CREATE TABLE HelloWorld2 (
     Declaration2 nvarchar(1000) NULL,
     CONSTRAINT PK_HelloWorld2 PRIMARY KEY CLUSTERED (HelloWorldId2)
 );
+
+CREATE TABLE HelloWorld3 (
+    HelloWorldId3 INT IDENTITY NOT NULL,
+    Declaration3 nvarchar(1000) NULL,
+    CONSTRAINT PK_HelloWorld3 PRIMARY KEY CLUSTERED (HelloWorldId3)
+);
